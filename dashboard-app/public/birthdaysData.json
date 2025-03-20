@@ -1,0 +1,56 @@
+{
+    "type": "birthday",
+    "title": "Birthdays",
+    "description": "Members in your office are celebrating birthdays. Show them your appreciation by wishing them.",
+    "avatars": [
+      {
+        "name": "John Doe",
+        "avatar": "https://imgv3.fotor.com/images/slider-image/A-clear-close-up-photo-of-a-woman.jpg"
+      },
+      {
+        "name": "Jane Smith",
+        "avatar": "https://imgv3.fotor.com/images/slider-image/A-clear-close-up-photo-of-a-woman.jpg"
+      },
+      {
+        "name": "Alice Johnson",
+        "avatar": "https://imgv3.fotor.com/images/slider-image/A-clear-close-up-photo-of-a-woman.jpg"
+      },
+      {
+        "name": "Bob Brown",
+        "avatar": "https://imgv3.fotor.com/images/slider-image/A-clear-close-up-photo-of-a-woman.jpg"
+      },
+      {
+        "name": "Eve Williams",
+        "avatar": "https://imgv3.fotor.com/images/slider-image/A-clear-close-up-photo-of-a-woman.jpg"
+      },
+      {
+        "name": "Charlie Davis",
+        "avatar": "https://imgv3.fotor.com/images/slider-image/A-clear-close-up-photo-of-a-woman.jpg"
+      },
+      {
+        "name": "Diana Miller",
+        "avatar": "https://imgv3.fotor.com/images/slider-image/A-clear-close-up-photo-of-a-woman.jpg"
+      },
+      {
+        "name": "George Wilson",
+        "avatar": "https://imgv3.fotor.com/images/slider-image/A-clear-close-up-photo-of-a-woman.jpg"
+      },
+      {
+        "name": "Helen Moore",
+        "avatar": "https://imgv3.fotor.com/images/slider-image/A-clear-close-up-photo-of-a-woman.jpg"
+      },
+      {
+        "name": "Ian Taylor",
+        "avatar": "https://imgv3.fotor.com/images/slider-image/A-clear-close-up-photo-of-a-woman.jpg"
+      },
+      {
+        "name": "Julia Anderson",
+        "avatar": "https://imgv3.fotor.com/images/slider-image/A-clear-close-up-photo-of-a-woman.jpg"
+      },
+      {
+        "name": "Kevin Thomas",
+        "avatar": "https://imgv3.fotor.com/images/slider-image/A-clear-close-up-photo-of-a-woman.jpg"
+      }
+    ]
+  }
+  

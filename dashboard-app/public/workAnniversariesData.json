@@ -1,0 +1,56 @@
+{
+    "type": "workAnniversary",
+    "title": "Work Anniversaries",
+    "description": "Members in your office are celebrating work anniversaries. Show them your appreciation by congratulating them.",
+    "avatars": [
+      {
+        "name": "Alice Johnson",
+        "avatar": "https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg"
+      },
+      {
+        "name": "Bob Brown",
+        "avatar": "https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg"
+      },
+      {
+        "name": "Eve Williams",
+        "avatar": "https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg"
+      },
+      {
+        "name": "Charlie Davis",
+        "avatar": "https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg"
+      },
+      {
+        "name": "Diana Miller",
+        "avatar": "https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg"
+      },
+      {
+        "name": "George Wilson",
+        "avatar": "https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg"
+      },
+      {
+        "name": "Helen Moore",
+        "avatar": "https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg"
+      },
+      {
+        "name": "Ian Taylor",
+        "avatar": "https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg"
+      },
+      {
+        "name": "Julia Anderson",
+        "avatar": "https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg"
+      },
+      {
+        "name": "Kevin Thomas",
+        "avatar": "https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg"
+      },
+      {
+        "name": "Linda Jackson",
+        "avatar": "https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg"
+      },
+      {
+        "name": "Michael White",
+        "avatar": "https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg"
+      }
+    ]
+  }
+  
