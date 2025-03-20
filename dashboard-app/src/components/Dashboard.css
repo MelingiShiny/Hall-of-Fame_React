@@ -7,12 +7,31 @@ body {
     height: 100vh;
     color: #fff; /* Adjust main text color to white for contrast */
   }
+
+  /* Style the scrollbar track */
+::-webkit-scrollbar {
+  width: 2px; /* Adjust the width of the scrollbar */
+}
+
+/* Style the scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar handle */
+  border-radius: 4px; /* Rounded corners for the handle */
+}
+
+/* Style the scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color of the handle on hover */
+}
   
   /* Dashboard Container */
   .dashboard-container {
     display: flex;
+    padding-top:2%;
     height: 100vh;
-    background-image: url("/main_bg.png");
+    background-image: url("\main_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   /* Sidebar Styles */
@@ -78,23 +97,23 @@ body {
   }
   
   .avatars img {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    margin-left: -8px;
+    margin-left: -10px;
     border: 2px solid #2e3b55;
   }
   
   /* Total Count Style */
   .avatars .total-count {
     position: absolute;
-    top: 0;
-    right: -5px;
+    top: 0px;
+    right: 9%;
     background-color: #007bff;
     color: white;
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -124,6 +143,7 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
     min-height: 100vh;
   }
   
@@ -212,7 +232,7 @@ body {
     width: 30%;
     background-color: #2e3b55; /* Match card background color */
     color: white;
-    padding: 20px;
+    padding: 10px 20px;
     overflow-y: auto;
     box-sizing: border-box;
     max-height: 500px;
