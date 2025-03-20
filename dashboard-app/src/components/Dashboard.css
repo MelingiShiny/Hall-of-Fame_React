@@ -27,7 +27,6 @@ body {
   /* Dashboard Container */
   .dashboard-container {
     display: flex;
-    padding-top:2%;
     height: 100vh;
     background-image: url("\main_bg.png");
     background-repeat: no-repeat;
