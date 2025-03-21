@@ -1,8 +1,9 @@
 import React from "react";
+import "./workAnniversarySection.css"
 
-const BirthdaySection = ({ data, maxImagesToShow }) => {
+const WorkAnniversarySection = ({ data, maxImagesToShow }) => {
   return (
-    <div className="birthdays-section">
+    <div className="work-anniversaries-section">
       <h3>{data.title}</h3>
       <p>{data.description}</p>
       <div className="avatars">
@@ -18,4 +19,4 @@ const BirthdaySection = ({ data, maxImagesToShow }) => {
   );
 };
 
-export default BirthdaySection;
+export default WorkAnniversarySection;

@@ -1,10 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import BirthdaySection from "../Birthdays/birthdaySection.js";
+import CommentsSection from "../Comments/commentSection";
+import PostsSection from "../Posts/postSection";
+import WorkAnniversarySection from "../WorkAnniversaries/workAnniversarySection.js";
 import "./Dashboard.css";
-import BirthdaySection from "./birthdaySection";
-import WorkAnniversarySection from "./workAnniversarySection";
 
 const Dashboard = () => {
   const [birthdayData, setBirthdayData] = useState(null);
@@ -18,7 +20,8 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchData = async (file) => {
       try {
-        const response = await fetch(`/${file}.json`);
+        console.log(file)
+        const response = await fetch(`JSON/${file}.json`);
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
@@ -108,38 +111,19 @@ const Dashboard = () => {
 
         {/* Posts and Comments Section */}
         <div className="bottom-section">
-          <div className="posts-section">
+        
             {posts ? (
-              posts.map((post, index) => (
-                <div key={index} className="post">
-                  <div className="post-header">
-                    <img src={post.authorAvatar} alt={post.author} />
-                    <div className="post-info">
-                      <h4>{post.author}</h4>
-                      <p>{post.location}</p>
-                    </div>
-                  </div>
-                  <img src={post.image} alt={post.content} className="post-image" />
-                </div>
-              ))
+              <PostsSection postsData={posts} carouselData={carouselItems} />
             ) : (
               <p>Loading Posts Data...</p>
             )}
-          </div>
 
           {/* Comments Section */}
-          <aside className="comments-section">
-            <h3>Innova Wall</h3>
             {comments ? (
-              comments.map((comment, index) => (
-                <div key={index} className="comment">
-                  <p>{comment.text}</p>
-                </div>
-              ))
+              <CommentsSection data={comments} />
             ) : (
               <p>Loading Comments Data...</p>
             )}
-          </aside>
         </div>
       </main>
     </div>

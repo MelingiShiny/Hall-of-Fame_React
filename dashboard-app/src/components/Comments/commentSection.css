@@ -1,0 +1,27 @@
+ /* Comments Section Styles */
+ .comments-section {
+    width: 30%;
+    background-color: #2e3b55; /* Match card background color */
+    color: white;
+    padding: 10px 20px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    max-height: 100vh;
+    border-radius: 10px; /* Add rounded corners */
+  }
+  
+  .comments h3 {
+    margin-bottom: 20px;
+  }
+  
+  .comment {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #616e80;
+  }
+  
+  .comment p {
+    margin: 0;
+    font-size: 0.9em;
+  }
+  

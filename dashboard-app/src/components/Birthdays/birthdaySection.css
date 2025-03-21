@@ -1,0 +1,60 @@
+/* Birthdays Section */
+.birthdays-section {
+  margin-top: 30px;
+  width: 90%;
+  background-color: #2e3b55; /* Match card background color */
+  padding: 15px; /* Add spacing inside the card */
+  border-radius: 10px; /* Add rounded corners */
+}
+
+.birthdays-section h3 {
+  margin-bottom: 10px;
+}
+
+.avatars {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.avatars img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: -10px;
+  border: 2px solid #2e3b55;
+}
+
+/* Total Count Style */
+.avatars .total-count {
+  position: absolute;
+  top: 0px;
+  right: 9%;
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7em;
+  font-weight: bold;
+  border: 2px solid white;
+}
+
+/* View & Wish Button */
+.view-wish-btn {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
