@@ -53,11 +53,11 @@ const Dashboard = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 1000,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true, // Enable autoplay
-    autoplaySpeed: 5000, // Set autoplay speed to 3 seconds
+    autoplaySpeed: 3000, // Set autoplay speed to 3 seconds
   };
 
   return (
@@ -101,8 +101,8 @@ const Dashboard = () => {
                   <img src={item.image} alt={item.title} />
                   <hr className="w-100"></hr>
                   <div className="w-100 d-flex justify-content-between">
-                  <h4 className="d-flex align-items-center">{item.title}</h4>
-                  <button className="carousel_view_btn">{item.actionText}<img src="../Images/arrow_outward.png" alt="arrow outward"></img></button>
+                    <h4 className="d-flex align-items-center">{item.title}</h4>
+                    <button className="carousel_view_btn">{item.actionText}<img src="../Images/arrow_outward.png" alt="arrow outward"></img></button>
                   </div>
                 </div>
               ))}
@@ -114,19 +114,19 @@ const Dashboard = () => {
 
         {/* Posts and Comments Section */}
         <div className="bottom-section">
-        
-            {posts ? (
-              <PostsSection postsData={posts} carouselData={carouselItems} />
-            ) : (
-              <p>Loading Posts Data...</p>
-            )}
+
+          {posts ? (
+            <PostsSection postsData={posts} carouselData={carouselItems} />
+          ) : (
+            <p>Loading Posts Data...</p>
+          )}
 
           {/* Comments Section */}
-            {comments ? (
-              <CommentsSection data={comments} />
-            ) : (
-              <p>Loading Comments Data...</p>
-            )}
+          {comments ? (
+            <CommentsSection data={comments} />
+          ) : (
+            <p>Loading Comments Data...</p>
+          )}
         </div>
       </main>
     </div>
