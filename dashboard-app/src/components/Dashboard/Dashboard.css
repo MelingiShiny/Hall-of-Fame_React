@@ -59,6 +59,12 @@ body {
     cursor: pointer;
   }
 
+  .new-post-btn{
+    background-color: #004094;
+    border-radius: 80px;
+    border:solid 1px #fff;
+  }
+
   /* Main Content Styles */
   .main-content {
     width: 70%;
@@ -74,7 +80,7 @@ body {
   /* Carousel Styles */
   .carousel-container {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 45px;
   }
   
   .carousel-item {
@@ -88,6 +94,7 @@ body {
     color: #fff; /* Adjust text color */
     border-radius: 10px; /* Add rounded corners */
     padding: 10px; /* Add spacing inside the card */
+    background: #2e3b55;
   }
   
   .carousel-item img {
@@ -99,7 +106,7 @@ body {
    /* Slick Carousel Styles */
    .slick-dots {
     position: absolute;
-    bottom: -10px;
+    bottom: -35px;
     left: 95%;
     transform: translateX(-50%);
     display: flex !important;
@@ -112,6 +119,18 @@ body {
     display: none !important;
 }
   
+.carousel_view_btn{
+  background: #383d51;
+  color: #fff;
+  text-decoration: underline;
+  font-size: 12px;
+  border-radius: 80px;
+  padding: 20px 40px;
+}
+
+.carousel_view_btn img{
+  display: inline;
+}
   .slick-dots li {
     margin: 0 5px;
   }

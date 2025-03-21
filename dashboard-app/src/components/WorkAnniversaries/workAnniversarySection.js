@@ -1,10 +1,10 @@
 import React from "react";
-import "./workAnniversarySection.css"
+import "./workAnniversarySection.css";
 
 const WorkAnniversarySection = ({ data, maxImagesToShow }) => {
   return (
     <div className="work-anniversaries-section">
-      <h3>{data.title}</h3>
+      <h4>{data.title}</h4>
       <p>{data.description}</p>
       <div className="avatars">
         {data.avatars.slice(0, maxImagesToShow).map((person, avatarIndex) => (
@@ -14,7 +14,7 @@ const WorkAnniversarySection = ({ data, maxImagesToShow }) => {
           <span className="total-count">{data.avatars.length}</span>
         )}
       </div>
-      <button className="view-wish-btn">View & Wish Them</button>
+      <button className="view-wish-btn d-flex justify-content-end">View & Wish Them<img src="../Images/arrow_outward.png" alt="arrow outward"></img></button>
     </div>
   );
 };

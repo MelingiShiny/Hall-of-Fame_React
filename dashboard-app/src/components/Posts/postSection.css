@@ -10,9 +10,6 @@
     cursor: pointer;
   }
   
-  
-  
-  /* Posts Section */
   .posts-section {
     width: 70%;
     padding:20px;
@@ -23,8 +20,8 @@
   /* Post Styles */
   .post {
     margin-bottom: 20px;
-    background-color: #fff; /* Match card background color */
-    color: #333; /* Adjust text color */
+    background: radial-gradient(98.47% 257.69% at 0% 50%, rgba(72, 72, 72, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+    color: #fff; /* Adjust text color */
     border-radius: 10px; /* Add rounded corners */
     padding: 10px; /* Add spacing inside the card */
   }
@@ -34,6 +31,7 @@
     align-items: center;
     padding: 10px;
     border-bottom: 1px solid #eee;
+    color: #fff;
   }
   
   .post-header img {
@@ -45,15 +43,19 @@
   
   .post-info h4 {
     margin: 0;
-    color: #333; /* Adjust text color */
   }
   
   .post-info p {
     margin: 0;
-    color: #777;
     font-size: 0.9em;
   }
+
+  .post-info img,.expand{
+    width:12px !important;
+    height:15px !important;
+  }
   
+
   .post-image {
     width: 100%;
     height: auto;

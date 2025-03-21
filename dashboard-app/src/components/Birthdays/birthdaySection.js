@@ -4,7 +4,7 @@ import "./birthdaySection.css";
 const BirthdaySection = ({ data, maxImagesToShow }) => {
   return (
     <div className="birthdays-section">
-      <h3>{data.title}</h3>
+      <h4>{data.title}</h4>
       <p>{data.description}</p>
       <div className="avatars">
         {data.avatars.slice(0, maxImagesToShow).map((person, avatarIndex) => (
@@ -14,7 +14,7 @@ const BirthdaySection = ({ data, maxImagesToShow }) => {
           <span className="total-count">{data.avatars.length}</span>
         )}
       </div>
-      <button className="view-wish-btn">View & Wish Them</button>
+      <button className="view-wish-btn d-flex justify-content-end">View & Wish Them<img src="../Images/arrow_outward.png" alt="arrow outward"></img></button>
     </div>
   );
 };

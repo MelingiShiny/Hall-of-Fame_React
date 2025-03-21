@@ -53,11 +53,11 @@ const Dashboard = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true, // Enable autoplay
-    autoplaySpeed: 3000, // Set autoplay speed to 3 seconds
+    autoplaySpeed: 5000, // Set autoplay speed to 3 seconds
   };
 
   return (
@@ -67,8 +67,8 @@ const Dashboard = () => {
         <button className="new-post-btn">+ New Post</button>
         <nav>
           <ul>
-            <li>My Wall</li>
-            <li>My Posts & Activity</li>
+            <li class="my-wall d-flex justify-content-between"><span><strong><img src="../Images/mywall.png" alt="my wall"></img>My Wall</strong></span><img src="../Images/sync.png" alt="sync"></img></li>
+            <li><img src="../Images/myposts.png" alt="my posts"></img>My Posts & Activity</li>
           </ul>
         </nav>
 
@@ -99,8 +99,11 @@ const Dashboard = () => {
               {carouselItems.map((item, index) => (
                 <div key={index} className="carousel-item">
                   <img src={item.image} alt={item.title} />
-                  <h4>{item.title}</h4>
-                  <button>{item.actionText}</button>
+                  <hr className="w-100"></hr>
+                  <div className="w-100 d-flex justify-content-between">
+                  <h4 className="d-flex align-items-center">{item.title}</h4>
+                  <button className="carousel_view_btn">{item.actionText}<img src="../Images/arrow_outward.png" alt="arrow outward"></img></button>
+                  </div>
                 </div>
               ))}
             </Slider>
